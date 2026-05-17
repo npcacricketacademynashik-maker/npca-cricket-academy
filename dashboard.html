@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>NPCA Dashboard</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🏏 NPCA Dashboard</h1>
+
+</header>
+
+<section class="card">
+
+<h2>Student Profile</h2>
+
+<p id="studentName"></p>
+
+<p id="studentMobile"></p>
+
+<p id="studentBatch"></p>
+
+<p id="studentRole"></p>
+
+<p id="studentFee"></p>
+<h3>Attendance</h3>
+
+<div id="attendanceList"></div>
+<h3>Fee History</h3>
+<h3>Edit Profile</h3>
+
+<input
+type="text"
+id="editAddress"
+placeholder="New Address">
+
+<select id="editRole">
+
+<option>Batsman</option>
+
+<option>Bowler</option>
+
+<option>All Rounder</option>
+
+<option>Wicket Keeper</option>
+
+</select>
+
+<button id="updateBtn">
+
+Update Profile
+
+</button>
+<div id="feeHistory"></div>
+</section>
+<button id="logoutBtn">
+
+Logout
+
+</button>
+<script type="module"
+src="dashboard.js"></script>
+
+</body>
+
+</html>

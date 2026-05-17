@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Fees Panel</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🏏 Fees Panel</h1>
+
+</header>
+
+<section class="card">
+
+<input
+type="text"
+id="studentName"
+placeholder="Student Name">
+
+<input
+type="number"
+id="amount"
+placeholder="Amount">
+
+<select id="month">
+
+<option>January</option>
+<option>February</option>
+<option>March</option>
+<option>April</option>
+<option>May</option>
+<option>June</option>
+<option>July</option>
+<option>August</option>
+<option>September</option>
+<option>October</option>
+<option>November</option>
+<option>December</option>
+
+</select>
+<select id="feeStatus">
+
+<option>Paid</option>
+
+<option>Pending</option>
+
+</select>
+
+<button id="saveFeeBtn">
+
+Save Fee
+
+</button>
+
+</section>
+
+<section class="card">
+<h2 id="monthlyCollection">
+
+Monthly Collection : ₹0
+
+</h2>
+
+<h2 id="totalIncome">
+
+Total Income : ₹0
+
+</h2>
+<h2>Fee Records</h2>
+
+<div id="feeList"></div>
+
+</section>
+
+<script type="module"
+src="fees.js"></script>
+
+</body>
+
+</html>

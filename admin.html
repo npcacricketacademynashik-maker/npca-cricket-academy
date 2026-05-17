@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>NPCA Admin Panel</title>
+
+<link rel="stylesheet"
+href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<h1>🏏 NPCA Admin Panel</h1>
+
+</header>
+
+<section class="card">
+
+<input
+type="text"
+id="search"
+placeholder="Search Student">
+
+<button id="searchBtn">
+
+Search
+
+</button>
+<select id="batchFilter">
+
+<option value="all">
+
+All Batches
+
+</option>
+
+<option value="Morning Batch">
+
+Morning Batch
+
+</option>
+
+<option value="Evening Batch 4 PM - 6:30 PM">
+
+Evening 4 PM - 6:30 PM
+
+</option>
+
+<option value="Evening Batch 6:30 PM - 9 PM">
+
+Evening 6:30 PM - 9 PM
+
+</option>
+
+</select>
+
+<button id="filterBtn">
+
+Filter Batch
+
+</button>
+</section>
+
+<section class="card">
+
+<h2>All Students</h2>
+
+<div id="studentList"></div>
+
+</section>
+
+<script type="module"
+src="admin.js"></script>
+
+</body>
+
+</html>
+<section class="card">
+
+<h2 id="totalStudents">
+
+Total Students : 0
+
+</h2>
+
+<h2 id="paidFees">
+
+Paid Fees : 0
+
+</h2>
+
+<h2 id="pendingFees">
+
+Pending Fees : 0
+
+</h2>
+<h2 id="morningCount">
+
+Morning Students : 0
+
+</h2>
+
+<h2 id="eveningCount">
+
+Evening Students : 0
+
+</h2>
+</section>
